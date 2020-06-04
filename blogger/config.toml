@@ -1,0 +1,19 @@
+# Pengaturan Dasar
+baseURL         = "http://example.org/"
+languageCode    = "en-us"
+title           = "My New Hugo Site"
+#summaryLength   = 10
+theme           = "landing"
+
+# Pengaturan SEO 
+description     = "Belajar membuat theme hugo"
+author = "irfnrdh"
+
+[params.blog]
+enable  = true
+
+[params]
+dateFormat      = "2 January 2006"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
